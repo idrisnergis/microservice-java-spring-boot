@@ -13,7 +13,8 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<name>spring-boot-microservice</name>
 	<description>Microservices Spring Boot</description>
-	
+	<packaging>pom</packaging>
+
 	<modules>
 		<module>product-service</module>
 		<module>order-service</module>

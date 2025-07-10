@@ -17,7 +17,7 @@ import org.springframework.http.client.ClientHttpRequestFactory;
 @Configuration
 public class RestClientConfig {
 
-    @Value("${inventory.url}")
+    @Value("${inventory.service.url}")
     private String inventoryServiceUrl;
 
     @Bean
